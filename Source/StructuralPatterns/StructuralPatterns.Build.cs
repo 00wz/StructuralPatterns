@@ -9,7 +9,7 @@ public class StructuralPatterns : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore",
-			"HTTP" });
+			"HTTP", "AIModule" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
